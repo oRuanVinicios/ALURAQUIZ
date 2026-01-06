@@ -3,20 +3,20 @@ export default function page() {
   return (
     <main>
       <div className={cardStyles.card}>
-        <header>
-          <h1 className="title">Teste suas habilidades</h1>
-        </header>
+      <header>
+        <h1 className="title">Teste suas habilidades</h1>
+      </header>
+      <p>
+        Teste os seus conhecimentos sobre o universo marvel e divirta-se criando o seu AluraQuiz
+      </p>
+      <p>
+        formulario/botao
+      </p>
+      <footer>
         <p>
-          Teste os seus conhecimentos sobre o universo marvel e divirta-se criando o seu AluraQuiz
+          Orgulhosamente criado com o DevSoutinho e Alura
         </p>
-        <p>
-          formulario/botao
-        </p>
-        <footer>
-          <p>
-            Orgulhosamente criado com o DevSoutinho e Alura
-          </p>
-        </footer>
+      </footer> 
       </div>
     </main>
   )

@@ -3,8 +3,8 @@ export default function page() {
   return (
     <main>
       <div className={cardStyles.card}>
-      <header>
-        <h1 className="title">Teste suas habilidades</h1>
+      <header className={cardStyles.cardheader}>
+        <h1 className={cardStyles.cardHeaderTitle}>Teste suas habilidades</h1>
       </header>
       <p>
         Teste os seus conhecimentos sobre o universo marvel e divirta-se criando o seu AluraQuiz

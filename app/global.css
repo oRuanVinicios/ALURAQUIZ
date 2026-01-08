@@ -1,3 +1,11 @@
+
+/* CSS Tema principal */
+:root{
+    --primary: #19198A;
+}
+
+/* Reset */
+
 *{
     padding: 0;
     margin: 0;

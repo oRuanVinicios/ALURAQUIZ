@@ -2,6 +2,8 @@
 /* CSS Tema principal */
 :root{
     --primary: #19198A;
+    --bg: #151a36;
+    --text: #FFFFFF;
 }
 
 /* Reset */
@@ -12,6 +14,20 @@
     box-sizing: border-box;
 }
 
+html{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+     min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 body{
     font-family: sans-serif;
+    background-color: var(--bg);
+    color : var(--text);
 }

@@ -1,7 +1,8 @@
+import homeStyles from './home.module.css';
 import cardStyles from './card.module.css';
 export default function page() {
   return (
-    <main>
+    <main className= {homeStyles.homeScreen}>
       <div className={cardStyles.card}>
       <header className={cardStyles.cardheader}>
         <h1 className={cardStyles.cardHeaderTitle}>Teste suas habilidades</h1>

@@ -1,10 +1,19 @@
 .card {
-    max-width: 350px;/* ideal para um tela de computador */
+    border: 1px solid var(--primary)
 }
+
+@media (min-width: 600px) {
+    .card {
+        /* ideal para um tela de computador */
+        max-width: 350px;
+    }
+}
+
 .cardHeader {
     padding: 18px 33px;
     background-color: #3F51B5;
 }
+
 .cardHeaderTitle {
     font-size: 16px;
 }

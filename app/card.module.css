@@ -1,6 +1,5 @@
 .card {
     max-width: 350px;/* ideal para um tela de computador */
-    border: 1px solid var(--primary);
 }
 .cardHeader {
     padding: 18px 33px;

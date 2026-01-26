@@ -1,4 +1,7 @@
-.homeScreen{
-    background: url(/images/fundoherois.png)
-    
+.homeScreen {
+  background-image: url(/images/fundoherois.png);
+  background-repeat: no-repeat;
+  background-size: cover; /* Faz a imagem cobrir todo o espaço */
+  background-position: center; /* Centraliza a imagem */
+  min-height: 100vh; /* Garante que o container tenha a altura da tela */
 }

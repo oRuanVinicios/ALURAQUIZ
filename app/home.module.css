@@ -1,18 +1,15 @@
 .homeScreen {
-  background-image: url(/images/fundoherois.png);
-  background-repeat: no-repeat;
+  padding-top: 40px;
   background-size: cover;
-  /* Faz a imagem cobrir todo o espaço */
   background-position: center;
-  /* Centraliza a imagem */
-  min-height: 100vh;
-  /* Garante que o container tenha a altura da tela */
   padding-left: 13px;
   padding-right: 13px;
 }
 
-@-media (min-width: 600px) {
+@media (min-width: 600px) {
   .homeScreen {
+    padding-top: 55px;
+    background-image: url(/images/fundoherois.png);
     padding-left: 15%;
     padding-right: 15%;
   }

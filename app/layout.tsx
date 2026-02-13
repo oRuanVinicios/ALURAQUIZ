@@ -15,3 +15,10 @@ export default function RootLayout({
     </html>
   )
 }
+}) {
+  return (
+    <html lang="br">
+      <body>{children}</body>
+    </html>
+  )
+}

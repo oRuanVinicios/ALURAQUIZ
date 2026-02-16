@@ -1,3 +1,4 @@
+import homeStyles from './home.module.css';
 import cardStyles from './card.module.css';
 import homeStyles from './home.module.css';
 import { AluraQuizLogo } from './components/AluraQuizLogo';

@@ -1,11 +1,17 @@
 import homeStyles from './home.module.css';
 import cardStyles from './card.module.css';
-import homeStyles from './home.module.css';
 import { AluraQuizLogo } from './components/AluraQuizLogo';
+
+
 export default function page() {
   return (
     <main className={homeStyles.homeScreen} style={{ flex: 1 }}>
-      <div>
+      <div style={{
+        maxWidth: "350px",
+        display: "flex",
+        justifyContent: "center",
+        marginBottom: "24px",
+      }}>
         <AluraQuizLogo />
       </div>
 

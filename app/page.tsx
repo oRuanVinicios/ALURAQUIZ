@@ -1,6 +1,7 @@
 import homeStyles from './home.module.css';
 import cardStyles from './card.module.css';
-import { AluraQuizLogo } from './components/AluraQuizLogo';
+import { AluraQuizLogo } from './components/AluraquizLogo';
+import { Footer } from './components/Footer';
 
 
 export default function page() {
@@ -28,11 +29,7 @@ export default function page() {
           </p>
         </section>
       </div>
-      <footer>
-        <p>
-          Orgulhosamente criado com o DevSoutinho e Alura
-        </p>
-      </footer>
+     <Footer />
     </main>
   )
 }

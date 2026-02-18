@@ -14,3 +14,14 @@
     padding-right: 15%;
   }
 }
+
+.container {}
+
+@media (min-width: 600px) {
+    .container {
+        /* ideal para um tela de computador */
+        max-width: 350px;
+    }
+}
+
+

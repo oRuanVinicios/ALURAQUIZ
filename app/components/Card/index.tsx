@@ -1,19 +1,20 @@
+/**O objetivo deste componente é criar um card para ser utilizado em outras partes do projeto, como por exemplo na página de desafios. Ele recebe como props children que serão renderizados dentro do card. O card possui um título fixo "Teste suas habilidades" e um corpo onde os filhos serão exibidos. O estilo do card é utilizado no arquivo card.module.css. */
+
+interface CardProps {
+    headerTitle: string;
+    children: React.ReactNode;
+}
 import cardStyles from './card.module.css';
 
-export function Card() {
+export function Card(props: CardProps) {
     return (
         <div className={cardStyles.card}>
             <div className={cardStyles.card}>
                 <header className={cardStyles.cardHeader}>
-                    <h1 className={cardStyles.cardHeaderTitle}>Teste suas habilidades</h1>
+                    <h1 className={cardStyles.cardHeaderTitle}>{props.headerTitle}</h1>
                 </header>
                 <section className={cardStyles.cardBody}>
-                    <p style={{ marginBottom: "32px" }}>
-                        Teste os seus conhecimentos sobre o universo marvel e divirta-se criando o seu AluraQuiz
-                    </p>
-                    <p>
-                        formulario/botao
-                    </p>
+                    {props.children}
                 </section>
             </div>
         </div>

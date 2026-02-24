@@ -1,8 +1,8 @@
 import pageStyles from './page.module.css';
 import cardStyles from './Card/card.module.css';
-import { AluraQuizLogo } from './components/AluraQuizLogo';
-import { Footer } from './components/Footer';
-import { Card } from './components/Card';
+import { AluraQuizLogo } from './_components/AluraQuizLogo';
+import { Footer } from './_components/Footer';
+import { Card } from './_components/Card';
 
 
 export default function page() {

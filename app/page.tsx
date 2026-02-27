@@ -9,16 +9,17 @@ export default function page() {
   return (
     <main className={pageStyles.screen} style={{ flex: 1 }}>
       <section className={pageStyles.container}>
-        <div style={{
-          display: "flex",
-          justifyContent: "center",
-          marginBottom: "24px",
-        }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            marginBottom: "24px",
+          }}>
           <AluraQuizLogo />
         </div>
         <Card
-         headerTitle="Teste suas habilidades"
-         >
+          headerTitle="Teste suas habilidades"
+        >
 
           <p style={{ marginBottom: "32px" }}>
             Teste os seus conhecimentos sobre o universo marvel e divirta-se criando o seu AluraQuiz

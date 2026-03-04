@@ -1,5 +1,6 @@
 /**O objetivo deste componente é criar um card para ser utilizado em outras partes do projeto, como por exemplo na página de desafios. Ele recebe como props children que serão renderizados dentro do card. O card possui um título fixo "Teste suas habilidades" e um corpo onde os filhos serão exibidos. O estilo do card é utilizado no arquivo card.module.css. */
 
+import React from 'react';
 interface CardProps {
     headerTitle: string;
     children: React.ReactNode;

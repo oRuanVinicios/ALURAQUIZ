@@ -21,3 +21,15 @@
 .cardBody > * {
     font-size: 14px;
 }
+
+.cardBody > h1 {
+    margin-bottom: 16px;
+    font-weight: bold;  
+    margin-bottom: 8px;
+
+}
+
+
+.cardBody > p {
+    margin-bottom: 14px;
+}

@@ -1,8 +1,8 @@
 import pageStyles from './page.module.css';
-import cardStyles from './Card/card.module.css';
 import { AluraQuizLogo } from './_components/AluraQuizLogo';
 import { Footer } from './_components/Footer';
 import { Card } from './_components/Card';
+import Link from 'next/link';
 
 
 export default function page() {
@@ -27,9 +27,9 @@ export default function page() {
           <p>
             formulario/botao
           </p>
-          <a href="/game">
+          <Link href="/game">
             JOGAR
-          </a>
+          </Link>
         </Card>
         <Footer />
       </section >

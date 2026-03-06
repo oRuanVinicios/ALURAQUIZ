@@ -1,5 +1,5 @@
-import { Card } from "../Card";
-import pageStyle from "./page.module.css";
+import { Card } from "../_components/Card";
+import pageStyle from "../page.module.css";
 
 export default function GameScreen() {
     return (
